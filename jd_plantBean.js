@@ -94,7 +94,7 @@ const cookie = $hammer.read('CookieJD')
 const name = '京东种豆得豆'
 
 //京东接口地址
-const JD_API_HOST = 'https://api.m.jd.com/client.actiHostCN
+const JD_API_HOST = 'https://api.m.jd.com/client.action';
 var plantUuids = [ // 这个列表填入你要助力的好友的plantUuid
     'tdwxwgkotfye2aug2vimwzpy5s4dy6tosh5qmka'
 ]
