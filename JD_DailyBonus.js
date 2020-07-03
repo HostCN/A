@@ -107,7 +107,7 @@ async function all() {
       //JingDongClocks(stop), //京东钟表馆
       //JingDongPet(stop), //京东宠物馆
       JDFlashSale(stop), //京东闪购
-      JDRawFresh(stop), //京东生鲜
+      //JDRawFresh(stop), //京东生鲜
       JDOverseas(stop), //京东国际
       //JingDongBook(stop), //京东图书
       //JDSecondhand(stop), //京东拍拍二手
@@ -115,7 +115,7 @@ async function all() {
       //JingDongWomen(stop), //京东女装馆
       //JdVegeMarket(stop), //京东菜场
       JingDongCash(stop), //京东现金红包
-      JingDongFood(stop), //京东美食馆
+      //JingDongFood(stop), //京东美食馆
       JingRSeeAds(stop), //金融看广告
       //JingRongGame(stop), //金融游戏大厅
       //JingDongLive(stop), //京东智能生活馆
@@ -123,7 +123,7 @@ async function all() {
       //JDPersonalCare(stop), //京东个人护理馆
       //JingDongJewels(stop), //京东珠宝馆
       //JDMagicCube(stop), //京东小魔方
-      JingDongFish(stop), //京东小京鱼
+      //JingDongFish(stop), //京东小京鱼
       JingDongPrize(stop), //京东抽大奖
       JingDongSubsidy(stop), //京东金贴
       JingDongShake(stop) //京东摇一摇
