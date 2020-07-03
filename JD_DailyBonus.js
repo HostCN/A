@@ -2,7 +2,7 @@
 
 京东多合一签到脚本
 
-更新时间: 2020.6.26 17:40 v1.17
+更新时间: 2020.7.3 12:02 v1.18
 有效接口: 27+
 脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
 电报频道: @NobyDa 
@@ -116,14 +116,14 @@ async function all() {
       JdVegeMarket(stop), //京东菜场
       JingDongCash(stop), //京东现金红包
       JingDongFood(stop), //京东美食馆
-      //JingRSeeAds(stop), //金融看广告
-      //JingRongGame(stop), //金融游戏大厅
+      JingRSeeAds(stop), //金融看广告
+      JingRongGame(stop), //金融游戏大厅
       JingDongLive(stop), //京东智能生活馆
       JingDongClean(stop), //京东清洁馆
       JDPersonalCare(stop), //京东个人护理馆
       JingDongJewels(stop), //京东珠宝馆
-      //JDMagicCube(stop), //京东小魔方
-      //JingDongFish(stop), //京东小京鱼
+      JDMagicCube(stop), //京东小魔方
+      JingDongFish(stop), //京东小京鱼
       JingDongPrize(stop), //京东抽大奖
       JingDongSubsidy(stop), //京东金贴
       JingDongShake(stop) //京东摇一摇
@@ -147,17 +147,17 @@ async function all() {
     await JingDMakeup(stop); //京东美妆馆
     await JingDongWomen(stop); //京东女装馆
     await JdVegeMarket(stop); //京东菜场
-    //await JDMagicCube(stop); //京东小魔方
+    await JDMagicCube(stop); //京东小魔方
     await JingDongCash(stop); //京东现金红包
     await JingDongJewels(stop); //京东珠宝馆
     await JingDongFood(stop); //京东美食馆
-    //await JingRSeeAds(stop); //金融看广告
-    //await JingRongGame(stop); //金融游戏大厅
+    await JingRSeeAds(stop); //金融看广告
+    await JingRongGame(stop); //金融游戏大厅
     await JingDongLive(stop); //京东智能生活馆
     await JingDongClean(stop); //京东清洁馆
     await JDPersonalCare(stop); //京东个人护理馆
     await JingDongSubsidy(stop); //京东金贴
-    //await JingDongFish(stop); //京东小京鱼
+    await JingDongFish(stop); //京东小京鱼
   }
   await JRDoubleSign(stop); //金融双签
   await Promise.all([
