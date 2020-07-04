@@ -3,11 +3,8 @@
 京东多合一签到脚本
 
 更新时间: 2020.7.04 14:50 v1.18
-有效接口: 24+
+有效接口: 30+
 脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
-电报频道: @NobyDa 
-问题反馈: @NobyDa_bot 
-如果转载: 请注明出处
 
 *************************
 【 JSbox, Node.js 说明 】 :
@@ -129,10 +126,10 @@ async function all() {
       JingRongSteel(stop), //金融钢镚
       JingDongTurn(stop), //京东转盘
       JDUserSignPre(stop, 'JDGStore', '京东商城-超市'), //京东超市
-      // JingDongClocks(stop), //京东钟表馆
+      JingDongClocks(stop), //京东钟表馆
       JDUserSignPre(stop, 'JDPet', '京东商城-宠物'), //京东宠物馆
       JDFlashSale(stop), //京东闪购
-      // JDRawFresh(stop), //京东生鲜
+      JDRawFresh(stop), //京东生鲜
       JDOverseas(stop), //京东国际
       JDUserSignPre(stop, 'JDBook', '京东商城-图书'), //京东图书
       JDUserSignPre(stop, 'JDShand', '京东拍拍-二手'), //京东拍拍二手
@@ -141,14 +138,14 @@ async function all() {
       JDUserSignPre(stop, 'JDVege', '京东商城-菜场'), //京东菜场
       JingDongCash(stop), //京东现金红包
       JDUserSignPre(stop, 'JDFood', '京东商城-美食'), //京东美食馆
-      // JingRSeeAds(stop), //金融看广告
-      // JingRongGame(stop), //金融游戏大厅
-      // JingDongLive(stop), //京东智能生活馆
+      JingRSeeAds(stop), //金融看广告
+      JingRongGame(stop), //金融游戏大厅
+      JingDongLive(stop), //京东智能生活馆
       JDUserSignPre(stop, 'JDClean', '京东商城-清洁'), //京东清洁馆
       JDUserSignPre(stop, 'JDCare', '京东商城-个护'), //京东个人护理馆
       JDUserSignPre(stop, 'JDJewels', '京东商城-珠宝'), //京东珠宝馆
-      // JDMagicCube(stop), //京东小魔方
-      // JingDongFish(stop), //京东小京鱼
+      JDMagicCube(stop), //京东小魔方
+      JingDongFish(stop), //京东小京鱼
       JingDongPrize(stop), //京东抽大奖
       JingDongSubsidy(stop), //京东金贴
       JingDongShake(stop) //京东摇一摇
@@ -160,10 +157,10 @@ async function all() {
     await JingRongSteel(stop); //金融钢镚
     await JingDongTurn(stop); //京东转盘
     await JDUserSignPre(stop, 'JDGStore', '京东商城-超市'); //京东超市
-    // await JingDongClocks(stop); //京东钟表馆
+    await JingDongClocks(stop); //京东钟表馆
     await JDUserSignPre(stop, 'JDPet', '京东商城-宠物'); //京东宠物馆
     await JDFlashSale(stop); //京东闪购
-    // await JDRawFresh(stop); //京东生鲜
+    await JDRawFresh(stop); //京东生鲜
     await JDOverseas(stop); //京东国际
     await JDUserSignPre(stop, 'JDBook', '京东商城-图书'); //京东图书
     await JDUserSignPre(stop, 'JDShand', '京东拍拍-二手'); //京东拍拍二手
@@ -172,14 +169,14 @@ async function all() {
     await JDUserSignPre(stop, 'JDVege', '京东商城-菜场'); //京东菜场
     await JingDongCash(stop); //京东现金红包
     await JDUserSignPre(stop, 'JDFood', '京东商城-美食'); //京东美食馆
-    // await JingRSeeAds(stop); //金融看广告
-    // await JingRongGame(stop); //金融游戏大厅
-    // await JingDongLive(stop); //京东智能生活馆
+    await JingRSeeAds(stop); //金融看广告
+    await JingRongGame(stop); //金融游戏大厅
+    await JingDongLive(stop); //京东智能生活馆
     await JDUserSignPre(stop, 'JDClean', '京东商城-清洁'); //京东清洁馆
     await JDUserSignPre(stop, 'JDCare', '京东商城-个护'); //京东个人护理馆
     await JDUserSignPre(stop, 'JDJewels', '京东商城-珠宝'); //京东珠宝馆
-    // await JDMagicCube(stop); //京东小魔方
-    // await JingDongFish(stop); //京东小京鱼
+    await JDMagicCube(stop); //京东小魔方
+    await JingDongFish(stop); //京东小京鱼
     await JingDongPrize(stop); //京东抽大奖
     await JingDongSubsidy(stop); //京东金贴
     await JingDongShake(stop) //京东摇一摇
